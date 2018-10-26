@@ -2,12 +2,14 @@
 
 [whatsmyip via ping](http://systemadmin.es/2013/02/whatsmyip-con-ping)
 
+## Install
+
 ```
 make all
 insmod ./icmp2ip.ko
 ```
 
-Demo
+## Demo
 
 ```
 $ ping localhost
