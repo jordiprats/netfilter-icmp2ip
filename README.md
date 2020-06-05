@@ -2,14 +2,9 @@
 
 [whatsmyip via ping](http://systemadmin.es/2013/02/whatsmyip-con-ping)
 
-## Install
-
-```
-make all
-insmod ./icmp2ip.ko
-```
-
 ## Demo
+
+Please notice how the IP is returned as the TTL of the ping response:
 
 ```
 [root@qapla ~]# ping whatsmyip.systemadmin.es
@@ -24,4 +19,11 @@ PING whatsmyip.systemadmin.es (54.38.10.67) 56(84) bytes of data.
 rtt min/avg/max/mdev = 9.398/9.475/9.655/0.158 ms
 [root@qapla ~]# curl icanhazip.com
 91.121.142.67
+```
+
+## Install
+
+```
+make all
+insmod ./icmp2ip.ko
 ```
