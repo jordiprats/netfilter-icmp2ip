@@ -51,6 +51,12 @@ A public test server is not available.
 - Linux kernel headers matching the running kernel
 - `make` and a C compiler
 
+## Build
+
+```
+make
+```
+
 ## License
 
 GPL — see [LICENSE](LICENSE).
